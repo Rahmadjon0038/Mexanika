@@ -5,11 +5,14 @@ import image1_7 from '../../assets/image1_7.png'
 import image1_8 from '../../assets/image1_8.png'
 import image1_9a from '../../assets/image1_9a.png'
 import image1_9b from '../../assets/image1_9b.png'
+import Navbar from "../Navbar";
 
 function TheoremProblems() {
     return (
+        <>
+        <Navbar/>
         <MathJax.Provider>
-            <div className="min-h-screen bg-gray-100 text-gray-800 flex justify-center items-center p-4">
+            <div className="min-h-screen bg-gray-100 text-gray-800 flex justify-center items-center mt-20 p-4">
                 <div className="bg-white shadow-lg rounded-lg p-6 sm:p-8 max-w-[1940px] w-full">
                     <h1 className="text-2xl font-bold text-center mb-6">
                         1.3 – §. Uch kuch muvozanati haqidagi teoremaga doir masalalar
@@ -158,6 +161,8 @@ function TheoremProblems() {
                 </div>
             </div>
         </MathJax.Provider>
+        </>
+
     );
 }
 

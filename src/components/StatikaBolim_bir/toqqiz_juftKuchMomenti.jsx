@@ -3,11 +3,13 @@ import MathJax from "react-mathjax";
 import image1_25 from '../../assets/image1_25.png'
 import image1_26 from '../../assets/image1_26.png'
 import image1_27 from '../../assets/image1_27.png'
+import Navbar from "../Navbar";
 
 function CoupleMoment() {
     return (
+        <><Navbar/>
         <MathJax.Provider>
-            <div className="min-h-screen bg-gray-100 text-gray-800 flex justify-center items-center p-4">
+            <div className="min-h-screen bg-gray-100 text-gray-800 flex justify-center items-center mt-10 p-4">
                 <div className="bg-white shadow-lg rounded-lg p-6 sm:p-8 max-w-[1940px] w-full">
                     <h1 className="text-2xl font-bold text-center mb-6">
                         1.9 – §. Juft kuch. Juft momenti
@@ -124,10 +126,10 @@ function CoupleMoment() {
                         <MathJax.Node inline formula={"\\vec{F}_2"} />
                         kuchlar bir to‘g‘ri chiziqda yotadi va muvozanatlashuvchi kuchlar sistemasini tashkil qiladi.
                     </p>
-
                 </div>
             </div>
         </MathJax.Provider>
+        </>
     );
 }
 

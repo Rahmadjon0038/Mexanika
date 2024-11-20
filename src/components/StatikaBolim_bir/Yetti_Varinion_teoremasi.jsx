@@ -1,10 +1,12 @@
 import React from "react";
 import MathJax from "react-mathjax";
 import image1_18 from '../../assets/image1_18.png'
+import Navbar from "../Navbar";
 function VarignonTheorem() {
     return (
+        <><Navbar/>
         <MathJax.Provider>
-            <div className="min-h-screen bg-gray-100 text-gray-800 flex justify-center items-center p-4">
+            <div className="min-h-screen bg-gray-100 text-gray-800 flex justify-center items-center mt-20 p-4">
                 <div className="bg-white shadow-lg rounded-lg p-6 sm:p-8 max-w-[1940px] w-full">
                     <h1 className="text-2xl font-bold text-center mb-6">
                         1.7 – §. Varignon teoremasi
@@ -44,6 +46,7 @@ function VarignonTheorem() {
                 </div>
             </div>
         </MathJax.Provider>
+        </>
     );
 }
 

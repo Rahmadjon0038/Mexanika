@@ -1,9 +1,12 @@
 import React from "react";
 import image1 from '../../assets/image1.png'
+import Navbar from "../Navbar";
 
 function MechanicsComponent() {
     return (
-        <div className="min-h-screen bg-gray-100 text-gray-800 flex justify-center items-center p-4">
+        <>
+        <Navbar/>
+        <div className="min-h-screen bg-gray-100 text-gray-800 flex justify-center items-center p-4 mt-20">
             <div className="bg-white shadow-lg rounded-lg p-6 sm:p-8 max-w-[1940px] w-full">
                 <h1 className="text-2xl font-bold text-center mb-6">
                     1.1–§. Kuch. Kuchlar sistemasi. Teng ta’sir etuvchi kuch
@@ -58,6 +61,7 @@ function MechanicsComponent() {
                 </p>
             </div>
         </div>
+        </>
     );
 }
 
