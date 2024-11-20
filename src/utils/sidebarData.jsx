@@ -15,7 +15,7 @@ export const bolimlar = [
                 
                 id: 2,
                 name: "1.2-dars",
-                mavzu: " . Asosiy aksiomalar.  ",
+                mavzu: " Asosiy aksiomalar.  ",
                 path:'/AxiomsSection'
             },
             {

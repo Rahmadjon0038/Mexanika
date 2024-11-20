@@ -4,7 +4,6 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { rootdata } from '../utils/RootData'
 function RootControl() {
   const {pathname} = useLocation()
-  console.log(pathname)
   useEffect(()=>{
     window.scrollTo(0,0)
   },[pathname])
