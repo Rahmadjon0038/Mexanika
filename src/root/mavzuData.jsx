@@ -62,9 +62,16 @@ export const mavzuData = [
     },
     {
         id: 11,
-        name: "1.10-dars",
-        mavzu: "Rahmadjon",
-        path:"/ConnectionsAndReactions"
+        name: "2.1-dars",
+        mavzu: "Kesishuvchi kuchlar sistemasini qo’shish",
+        path:"/KesishuvchiKuchlar"
     },
+    {
+        id: 12,
+        name: "2.2-dars",
+        mavzu: "Kesishuvchi kuchlar sistemasining muvоzanat tenglamalari",
+        path:"/KesishuvchiKuchlarMuvozanati"
+    },
+    
     
 ]

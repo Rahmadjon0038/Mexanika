@@ -68,5 +68,27 @@ export const bolimlar = [
             },
         ]
     },
+    {
+        id: 2,
+        name: "2-bob",
+        bobname: "STATIKA.  ASOSIY  TUSHUNCHALAR.  AKSIОMALAR. BOG’LANISHLAR  VA ULARNING  REAKSIYA  KUCHLARI",
+        children: [
+            {
+                id: 1,
+                name: "2.1-dars",
+                mavzu: "Kesishuvchi kuchlar sistemasini qo’shish",
+                path:'/KesishuvchiKuchlar'
+            },
+            {
+                
+                id: 2,
+                name: "2.2-dars",
+                mavzu: "Kesishuvchi kuchlar sistemasining muvоzanat tenglamalari",
+                path:'/KesishuvchiKuchlarMuvozanati'
+            },
+            
+        ]
+    },
 ]
+
 
